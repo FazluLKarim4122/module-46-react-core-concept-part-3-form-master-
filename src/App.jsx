@@ -6,6 +6,7 @@ import StatefulForm from './Components/StatefulForm/StatefulForm'
 import ReffForm from './Components/ReffForm/ReffForm'
 import HookForm from './Components/HookForm/HookForm'
 import ReusableForm from './Components/ReusableForm/ReusableForm'
+import Grandpa from './Components/Grandpa/Grandpa'
 
 function App() {
   /* event handler e parameter er bishoy ta ki- je submit event take trigger kortesi.sheta paoar jonno */
@@ -31,7 +32,9 @@ function App() {
   return (
     <>
       <div>
-        <h1>Vite + React</h1>
+        <h1>Form Master</h1>
+        <Grandpa></Grandpa>
+
         {/* Form theke kisu pete hole onSubmit event handler use korte hoy */}
         {/* <form onSubmit={handleSubmit}>
 
@@ -45,7 +48,7 @@ function App() {
         {/* <StatefulForm></StatefulForm> */}
         {/* <ReffForm></ReffForm> */}
         {/* <HookForm></HookForm> */}
-        <ReusableForm formTitle={'Sign-up'} 
+        {/* <ReusableForm formTitle={'Sign-up'} 
         handleSubmit={handleSignUP} 
         >
           <div>
@@ -59,7 +62,7 @@ function App() {
             <h2>Update Profile</h2>
             <p>Always keep your profile updated</p>
           </div>
-        </ReusableForm>
+        </ReusableForm> */}
       </div>
 
     </>
