@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import StatefulForm from './Components/StatefulForm/StatefulForm'
 import ReffForm from './Components/ReffForm/ReffForm'
+import HookForm from './Components/HookForm/HookForm'
 
 function App() {
   /* event handler e parameter er bishoy ta ki- je submit event take trigger kortesi.sheta paoar jonno */
@@ -31,7 +32,8 @@ function App() {
           <button>Submit here</button>
         </form> */}
         {/* <StatefulForm></StatefulForm> */}
-        <ReffForm></ReffForm>
+        {/* <ReffForm></ReffForm> */}
+        <HookForm></HookForm>
       </div>
 
     </>
